@@ -1,0 +1,36 @@
+.grid-container{
+    display: grid;
+    grid-column: auto auto auto auto;
+    background-color: gray;
+    border: 1px solid black;
+    }
+
+/*@media screen and (max-width:500px){
+
+    .grid-container div{
+        background-color: gray;
+        border: 1px solid black;
+    }
+}
+    .grid-container{
+        background-color: gray;
+        border: 1px solid black;
+    }
+    .grid-container div{
+        float: left;
+        display: block;
+        background-color: gray;
+        text-align: center;
+        padding: 120px;
+        text-decoration: none;
+        border: 1px solid black;
+    }*/
+    @media screen and (max-width:500px)
+    {
+        .grid-container{
+        display: grid;
+        grid-column: auto auto auto auto;
+        background-color: gray;
+        border: 1px solid black;
+        }   
+    }
